@@ -1,6 +1,6 @@
 # Patreon Post Index Generator
 
-The demo is an example of formatting post data requested from Patreon, using the ID of [HeatPhoenix](https://www.patreon.com/join/heatphoenix)'s Patreon campaign.
+The [demo](http://flyingkatsu.com/patreon-post-index/index.html) is an example of formatting post data requested from Patreon, using the ID of [HeatPhoenix](https://www.patreon.com/join/heatphoenix)'s Patreon campaign.
 
 If you want to use this for another campaign,
 1. download the files or clone this repo,
