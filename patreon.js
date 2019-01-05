@@ -9,17 +9,18 @@ const getPostType = (type) => {
         case 'text_only':
             return 'Text';
         case 'video_embed':
+        case 'video_file':
             return 'Video';
         case 'audio_embed':
-            return 'Music';
-        case 'image_file':
         case 'audio_file':
-        case 'video_file':
-            return 'File';
+            return 'Audio';
         case 'poll':
             return 'Poll';
         case 'image_embed':
+        case 'image_file':
             return 'Image';
+        case 'link':
+            return 'Link';
         default:
             return type;
     }
@@ -44,9 +45,7 @@ const processData = (input) => {
     });
     console.log(sorted);
     console.log(`Preparing buckets for tier levels...`);
-    const tiers = {
-        null: { posts:[], title: `Unrecognized Tier Level (null)` }
-    };
+    const tiers = {};
     sorted.reward.map( (reward) => {
         const cost = (reward.amount > 1) ? ` ($${reward.amount/100}+)`: ``;
         if (!tiers[reward.amount]) {
@@ -78,12 +77,21 @@ const processData = (input) => {
             });
             if (attach.length > 0) detail += `\n\t- Attachments: ${attach.join(', ')}`;
         }
-
+        
+        if (!tiers[post.attributes.min_cents_pledged_to_view]) {
+            // This will occur if you do not have access to view higher tier rewards
+            const cents = post.attributes.min_cents_pledged_to_view;
+            const cost = (cents == null) ? '(null... API bug?)' : (cents > 1) ? 
+                ` ($${cents/100}+)`: (cents < 0) ?
+                `Everyone` : `Patrons Only`;
+            tiers[post.attributes.min_cents_pledged_to_view] = { posts: [], title: `Hidden Tier ${cost}` }
+        }
         tiers[post.attributes.min_cents_pledged_to_view].posts.push(detail);
     });
     console.log(`Done processing! Writing to page...`);
 
     return Object.keys(tiers).reduce( (txt, tier, i) => {
+        if (tiers[tier].posts.length == 0) return `${txt}\n\n## ${tiers[tier].title}\n*No posts exclusive to this tier.*`;
         return `${txt}\n\n## ${tiers[tier].title}\n${tiers[tier].posts.join('\n')}`;
     }, `# ${sorted.campaign[0].name}'s Patreon Post Index\n\n`);
 };
