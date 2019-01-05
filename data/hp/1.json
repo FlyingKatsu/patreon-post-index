@@ -1,0 +1,1144 @@
+{
+    "data": [
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 0,
+                "post_type": "text_only",
+                "published_at": "2018-12-31T08:16:42+00:00",
+                "title": "Video Uploads!",
+                "url": "https://www.patreon.com/posts/video-uploads-23649601"
+            },
+            "id": "23649601",
+            "relationships": {
+                "attachments": {
+                    "data": []
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1,
+                "post_type": "text_only",
+                "published_at": "2018-12-25T03:20:29+00:00",
+                "title": "Santa Tron Bonne! [Model Download]",
+                "url": "https://www.patreon.com/posts/santa-tron-bonne-23539843"
+            },
+            "id": "23539843",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "3047908",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 0,
+                "post_type": "text_only",
+                "published_at": "2018-12-25T03:16:19+00:00",
+                "title": "Merry Christmas! [Servbot Model Download]",
+                "url": "https://www.patreon.com/posts/merry-christmas-23539751"
+            },
+            "id": "23539751",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "3047888",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": null,
+                "post_type": "text_only",
+                "published_at": "2018-12-02T23:16:29+00:00",
+                "title": "Beast Out - Gregar! [Model Download]",
+                "url": "https://www.patreon.com/posts/beast-out-gregar-23080719"
+            },
+            "id": "23080719",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;3dcg",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": null,
+                "post_type": "text_only",
+                "published_at": "2018-12-01T04:23:11+00:00",
+                "title": "Beast Out - Falzar! [Model Download]",
+                "url": "https://www.patreon.com/posts/beast-out-falzar-23042868"
+            },
+            "id": "23042868",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;3dcg",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1,
+                "post_type": "image_embed",
+                "published_at": "2018-10-31T23:56:36+00:00",
+                "title": "HQ Prometheus and Pandora render! & Patreon Update",
+                "url": "https://www.patreon.com/posts/hq-prometheus-22430473"
+            },
+            "id": "22430473",
+            "relationships": {
+                "attachments": {
+                    "data": []
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1800,
+                "post_type": "text_only",
+                "published_at": "2018-10-31T23:53:39+00:00",
+                "title": "Pandora 3D model download!",
+                "url": "https://www.patreon.com/posts/pandora-3d-model-22430279"
+            },
+            "id": "22430279",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": []
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1,
+                "post_type": "text_only",
+                "published_at": "2018-09-29T17:35:45+00:00",
+                "title": "Cappy (Super Mario Odyssey) model release!",
+                "url": "https://www.patreon.com/posts/cappy-super-21722804"
+            },
+            "id": "21722804",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "2672618",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;3dcg",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;model",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1800,
+                "post_type": "text_only",
+                "published_at": "2018-09-24T23:59:30+00:00",
+                "title": "Prometheus (Mega Man ZX) Model Download!",
+                "url": "https://www.patreon.com/posts/prometheus-mega-21621517"
+            },
+            "id": "21621517",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 600,
+                "post_type": "poll",
+                "published_at": "2018-09-13T21:45:45+00:00",
+                "title": "Content poll for Sept -> Oct",
+                "url": "https://www.patreon.com/posts/content-poll-for-21399331"
+            },
+            "id": "21399331",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1800,
+                "post_type": "text_only",
+                "published_at": "2018-08-30T02:17:59+00:00",
+                "title": "Metal Sonic (Model Download)",
+                "url": "https://www.patreon.com/posts/metal-sonic-21075556"
+            },
+            "id": "21075556",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;model",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 0,
+                "post_type": "text_only",
+                "published_at": "2018-08-26T00:56:31+00:00",
+                "title": "Metal Sonic progress",
+                "url": "https://www.patreon.com/posts/metal-sonic-20986714"
+            },
+            "id": "20986714",
+            "relationships": {
+                "attachments": {
+                    "data": []
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": []
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 0,
+                "post_type": "text_only",
+                "published_at": "2018-08-11T04:29:21+00:00",
+                "title": "August Update!",
+                "url": "https://www.patreon.com/posts/august-update-20690274"
+            },
+            "id": "20690274",
+            "relationships": {
+                "attachments": {
+                    "data": []
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 100,
+                "post_type": "text_only",
+                "published_at": "2018-08-05T20:38:15+00:00",
+                "title": "Heavy Gunner (+ short bonus tutorial)!",
+                "url": "https://www.patreon.com/posts/heavy-gunner-20555253"
+            },
+            "id": "20555253",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "2478185",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;tutorial",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1800,
+                "post_type": "text_only",
+                "published_at": "2018-08-01T03:47:07+00:00",
+                "title": "Hard! Boiled! Heavy Gunner! (Model Download)",
+                "url": "https://www.patreon.com/posts/hard-boiled-20452253"
+            },
+            "id": "20452253",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;model",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1,
+                "post_type": "image_embed",
+                "published_at": "2018-07-30T03:21:29+00:00",
+                "title": "Beta Pok\u00e9mon Model Downloads!",
+                "url": "https://www.patreon.com/posts/beta-pokemon-20402507"
+            },
+            "id": "20402507",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "2453305",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;download",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;model",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 100,
+                "post_type": "text_only",
+                "published_at": "2018-07-04T04:17:01+00:00",
+                "title": "Blender Overview #5",
+                "url": "https://www.patreon.com/posts/blender-overview-19828272"
+            },
+            "id": "19828272",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "2361813",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": []
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 1,
+                "post_type": "text_only",
+                "published_at": "2018-07-01T04:08:05+00:00",
+                "title": "Blender Overview #4",
+                "url": "https://www.patreon.com/posts/blender-overview-19780878"
+            },
+            "id": "19780878",
+            "relationships": {
+                "attachments": {
+                    "data": [
+                        {
+                            "id": "2350229",
+                            "type": "attachment"
+                        }
+                    ]
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;3d model",
+                            "type": "post_tag"
+                        },
+                        {
+                            "id": "user_defined;tutorial",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 0,
+                "post_type": "text_only",
+                "published_at": "2018-06-18T22:56:09+00:00",
+                "title": "June Content!",
+                "url": "https://www.patreon.com/posts/june-content-19531707"
+            },
+            "id": "19531707",
+            "relationships": {
+                "attachments": {
+                    "data": []
+                },
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        },
+        {
+            "attributes": {
+                "min_cents_pledged_to_view": 600,
+                "post_type": "poll",
+                "published_at": "2018-06-04T14:07:18+00:00",
+                "title": "Second Poll!",
+                "url": "https://www.patreon.com/posts/second-poll-19239738"
+            },
+            "id": "19239738",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                },
+                "user_defined_tags": {
+                    "data": [
+                        {
+                            "id": "user_defined;announcement",
+                            "type": "post_tag"
+                        }
+                    ]
+                }
+            },
+            "type": "post"
+        }
+    ],
+    "included": [
+        {
+            "attributes": {
+                "avatar_photo_url": "https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/campaign/1153441/2bb9286fb3de4bf295ec96f736ed5acb/1?token-time=2145916800&token-hash=OU5ZEIepNoUA_0-h33mbGHOPb_uJYpHietb-h8-0PV4%3D",
+                "cover_photo_url": "https://c10.patreonusercontent.com/3/eyJ3IjoxOTIwfQ%3D%3D/patreon-media/p/campaign/1153441/96f47bdb12a143b8b33dda66e727ee92/3?token-time=2145916800&token-hash=HhmRpc7oILMX_vJNmvgh37tWZjdKwebhZ0J0MPfxh1o%3D",
+                "created_at": "2017-08-09T19:13:10+00:00",
+                "creation_count": 31,
+                "creation_name": "3D models, video games and tutorials!",
+                "discord_server_id": "244669887367086080",
+                "display_patron_goals": false,
+                "earnings_visibility": "public",
+                "image_small_url": "https://c10.patreonusercontent.com/3/eyJoIjo2NDAsInciOjY0MH0%3D/patreon-media/p/campaign/1153441/96f47bdb12a143b8b33dda66e727ee92/3?token-time=2145916800&token-hash=B3z5BNYEAUK5zGPXkURFvQO6FUTCTzRt2lxT7yrSRZc%3D",
+                "image_url": "https://c10.patreonusercontent.com/3/eyJ3IjoxOTIwfQ%3D%3D/patreon-media/p/campaign/1153441/96f47bdb12a143b8b33dda66e727ee92/3?token-time=2145916800&token-hash=HhmRpc7oILMX_vJNmvgh37tWZjdKwebhZ0J0MPfxh1o%3D",
+                "is_charge_upfront": true,
+                "is_charged_immediately": true,
+                "is_monthly": true,
+                "is_nsfw": false,
+                "is_plural": false,
+                "main_video_embed": null,
+                "main_video_url": null,
+                "name": "HeatPhoenix",
+                "one_liner": null,
+                "outstanding_payment_amount_cents": 0,
+                "patron_count": 58,
+                "pay_per_name": "month",
+                "pledge_sum": 13171,
+                "pledge_url": "/join/heatphoenix",
+                "published_at": "2018-03-04T20:52:03+00:00",
+                "summary": "Hi there, my name is Zacharia but you probably know me as HeatPhoenix, a game developer and 3D artist. First of all, I want to thank you for looking at this page and considering my Patreon.<br>\n<br>\n<img src=\"https://image.ibb.co/kx7byS/B7KgtK8.gif\"><br>\n<br>You may know me from Mega Man Battle Network 3D, one of my other video game projects or maybe you've just enjoyed checking out my models!<br><br>So what is this Patreon for?\n<br>\n<ol>\n\t<li>Supporting me making new models and game content for you to enjoy!</li>\n\t<li>Special rewards as a thank for you contributing!</li>\n\t<li>Tutorials and instruction on how to create 3D art  in my style and games!</li>\n</ol>\nPledging above the Model S tier even grants you access to my 3D model files! You're free to use them in any non-commercial use case.\n<br>\n<br><img src=\"https://78.media.tumblr.com/e5a2d990663e976a918f71de0ff724ca/tumblr_inline_p8buxj2oMO1qhtzpy_540.png\"><br><br>\nWith enough support I'll be able to keep up modeling high quality 3D models and animations that you can both enjoy and will help me improve my craft. Here are some examples of some models I have made in the past.\n<br>\n<br>\n<img src=\"https://image.ibb.co/e6ouk7/image.png\"><br>\n<br>\nAnd check out some characters I'd LOVE to do with your support! Can you imagine them in 3D dimensions with 100% of my love and attention? And you'd be able to get the files too and check out every angle!<br>\n<br>\n<img src=\"https://image.ibb.co/gbTidS/h_J5_Ur_PG_1.png\"><br>\n<br>\nAgain, thank you for reading and I hope you'll support me in my quest for excellent 3D models.<br><br><em>Profile image by <strong>@Tentawful\u00a0</strong></em>",
+                "thanks_embed": null,
+                "thanks_msg": "Thank you so SO much! You're helping both my dream and (hopefully) yours come true! I don't know if it's because you love the games I make or the art I create but one way or another, we're in for a hell of a ride.<br><br>Let me know if there's anything I can do to make this Patreon even more rewarding for you!",
+                "thanks_video_url": null,
+                "url": "https://www.patreon.com/heatphoenix"
+            },
+            "id": "1153441",
+            "relationships": {
+                "rewards": {
+                    "data": [
+                        {
+                            "id": "-1",
+                            "type": "reward"
+                        },
+                        {
+                            "id": "0",
+                            "type": "reward"
+                        },
+                        {
+                            "id": "1913197",
+                            "type": "reward"
+                        },
+                        {
+                            "id": "1913537",
+                            "type": "reward"
+                        },
+                        {
+                            "id": "1913538",
+                            "type": "reward"
+                        }
+                    ]
+                }
+            },
+            "type": "campaign"
+        },
+        {
+            "attributes": {
+                "background_image_url": null,
+                "cardinality": 1,
+                "is_featured": false,
+                "ordinal_number": null,
+                "tag_type": "user_defined",
+                "value": "announcement"
+            },
+            "id": "user_defined;announcement",
+            "type": "post_tag"
+        },
+        {
+            "attributes": {
+                "name": "xmastron.zip",
+                "url": "https://www.patreon.com/file?h=23539843&i=3047908"
+            },
+            "id": "3047908",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "23539843",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/23539843"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "background_image_url": null,
+                "cardinality": 1,
+                "is_featured": false,
+                "ordinal_number": null,
+                "tag_type": "user_defined",
+                "value": "download"
+            },
+            "id": "user_defined;download",
+            "type": "post_tag"
+        },
+        {
+            "attributes": {
+                "name": "xmasservbot.zip",
+                "url": "https://www.patreon.com/file?h=23539751&i=3047888"
+            },
+            "id": "3047888",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "23539751",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/23539751"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "background_image_url": null,
+                "cardinality": 1,
+                "is_featured": false,
+                "ordinal_number": null,
+                "tag_type": "user_defined",
+                "value": "3d model"
+            },
+            "id": "user_defined;3d model",
+            "type": "post_tag"
+        },
+        {
+            "attributes": {
+                "background_image_url": null,
+                "cardinality": 1,
+                "is_featured": false,
+                "ordinal_number": null,
+                "tag_type": "user_defined",
+                "value": "3dcg"
+            },
+            "id": "user_defined;3dcg",
+            "type": "post_tag"
+        },
+        {
+            "attributes": {
+                "name": "cappy_release.zip",
+                "url": "https://www.patreon.com/file?h=21722804&i=2672618"
+            },
+            "id": "2672618",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "21722804",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/21722804"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "background_image_url": null,
+                "cardinality": 1,
+                "is_featured": false,
+                "ordinal_number": null,
+                "tag_type": "user_defined",
+                "value": "model"
+            },
+            "id": "user_defined;model",
+            "type": "post_tag"
+        },
+        {
+            "attributes": {
+                "name": "thrustertex.zip",
+                "url": "https://www.patreon.com/file?h=20555253&i=2478185"
+            },
+            "id": "2478185",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "20555253",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/20555253"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "background_image_url": null,
+                "cardinality": 1,
+                "is_featured": false,
+                "ordinal_number": null,
+                "tag_type": "user_defined",
+                "value": "tutorial"
+            },
+            "id": "user_defined;tutorial",
+            "type": "post_tag"
+        },
+        {
+            "attributes": {
+                "name": "protopokes.zip",
+                "url": "https://www.patreon.com/file?h=20402507&i=2453305"
+            },
+            "id": "2453305",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "20402507",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/20402507"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "name": "kirby.zip",
+                "url": "https://www.patreon.com/file?h=19828272&i=2361813"
+            },
+            "id": "2361813",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "19828272",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/19828272"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "name": "kirby.zip",
+                "url": "https://www.patreon.com/file?h=19780878&i=2350229"
+            },
+            "id": "2350229",
+            "relationships": {
+                "post": {
+                    "data": {
+                        "id": "19780878",
+                        "type": "post"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/posts/19780878"
+                    }
+                }
+            },
+            "type": "attachment"
+        },
+        {
+            "attributes": {
+                "amount": 0,
+                "amount_cents": 0,
+                "created_at": null,
+                "description": "Everyone",
+                "remaining": 0,
+                "requires_shipping": false,
+                "url": null,
+                "user_limit": null
+            },
+            "id": "-1",
+            "type": "reward"
+        },
+        {
+            "attributes": {
+                "amount": 1,
+                "amount_cents": 1,
+                "created_at": null,
+                "description": "Patrons Only",
+                "remaining": 0,
+                "requires_shipping": false,
+                "url": null,
+                "user_limit": null
+            },
+            "id": "0",
+            "type": "reward"
+        },
+        {
+            "attributes": {
+                "amount": 100,
+                "amount_cents": 100,
+                "created_at": "2017-08-09T20:29:55.227951+00:00",
+                "description": "<ul>\n<li>Thank you for supporting me. I really do appreciate that!</li>\n<li>You get access to all Patron exclusive tutorial resources (including model files)!</li>\n</ul>",
+                "discord_role_ids": [
+                    "426165875184369665"
+                ],
+                "edited_at": "2018-03-21T23:52:40.546808+00:00",
+                "image_url": null,
+                "patron_count": 54,
+                "post_count": 2,
+                "published": true,
+                "published_at": "2018-03-21T23:52:40.515061+00:00",
+                "remaining": null,
+                "requires_shipping": false,
+                "title": "Supporter Man",
+                "unpublished_at": null,
+                "url": "/join/heatphoenix/checkout?rid=1913197",
+                "user_limit": null
+            },
+            "id": "1913197",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                }
+            },
+            "type": "reward"
+        },
+        {
+            "attributes": {
+                "amount": 600,
+                "amount_cents": 600,
+                "created_at": "2017-08-09T22:40:06.119938+00:00",
+                "description": "<ul>\n<li>You get to vote on what project I tackle next!</li>\n</ul>\n<p>AND all previous rewards!!</p>",
+                "discord_role_ids": [
+                    "426165875184369665"
+                ],
+                "edited_at": "2018-03-21T23:52:48.065163+00:00",
+                "image_url": null,
+                "patron_count": 4,
+                "post_count": 2,
+                "published": true,
+                "published_at": "2018-03-21T23:52:48.039612+00:00",
+                "remaining": null,
+                "requires_shipping": false,
+                "title": "Supporter.EXE",
+                "unpublished_at": null,
+                "url": "/join/heatphoenix/checkout?rid=1913537",
+                "user_limit": null
+            },
+            "id": "1913537",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                }
+            },
+            "type": "reward"
+        },
+        {
+            "attributes": {
+                "amount": 1800,
+                "amount_cents": 1800,
+                "created_at": "2017-08-09T22:40:06.126076+00:00",
+                "description": "<ul>\n<li>You get exclusive access to the actual 3D model files of the models I work on for this Patreon!</li>\n<li>You may use them for any non-commercial purpose you'd like!</li>\n</ul>\n<p>\u00a0AND all previous rewards!\u00a0</p>",
+                "discord_role_ids": [
+                    "426165875184369665"
+                ],
+                "edited_at": "2018-03-21T23:52:53.462710+00:00",
+                "image_url": null,
+                "patron_count": 4,
+                "post_count": 6,
+                "published": true,
+                "published_at": "2018-03-21T23:52:53.373638+00:00",
+                "remaining": null,
+                "requires_shipping": false,
+                "title": "Model S(upporter)",
+                "unpublished_at": null,
+                "url": "/join/heatphoenix/checkout?rid=1913538",
+                "user_limit": null
+            },
+            "id": "1913538",
+            "relationships": {
+                "campaign": {
+                    "data": {
+                        "id": "1153441",
+                        "type": "campaign"
+                    },
+                    "links": {
+                        "related": "https://www.patreon.com/api/campaigns/1153441"
+                    }
+                }
+            },
+            "type": "reward"
+        }
+    ],
+    "links": {
+        "next": "https://www.patreon.com/api/posts?filter%5Bcampaign_id%5D=1153441&include=attachments%2Cuser_defined_tags%2Ccampaign.rewards&fields%5Bpost%5D=min_cents_pledged_to_view%2Cpost_type%2Ctitle%2Curl%2Cpublished_at&sort=-published_at&filter%5Bis_draft%5D=false&page%5Bcursor%5D=drnH8b4wRsqh7iTkJUY-Fg-YhUc"
+    },
+    "meta": {
+        "pagination": {
+            "cursors": {
+                "next": "drnH8b4wRsqh7iTkJUY-Fg-YhUc"
+            },
+            "total": 31
+        }
+    }
+}

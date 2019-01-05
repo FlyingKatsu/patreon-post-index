@@ -127,7 +127,7 @@ const chooseFiles = (element, formatID, rawID) => {
     const dir = values[0];
     const count = values[1];
     const files = [];
-    for (let i=1; i<count; i++) {
+    for (let i=1; i<=count; i++) {
         files.push(`${dir}/${i}.json`);
         console.log(`${dir}/${i}.json`);
     }
