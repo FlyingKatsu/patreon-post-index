@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Patreon Indexer | FlyingKatsu</title>
+  <meta name="description" content="Simple indexing of a patreon campaign's posts">
+  <meta name="author" content="FlyingKatsu">
+  <!-- credit: Remarkable https://github.com/jonschlinkert/remarkable -->
+  <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
+  <!-- Main Script -->
+  <script src="patreon.js"></script>
+  <!-- credit: github-markdown-css https://sindresorhus.com/github-markdown-css/-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" type="text/css" media="screen" />
+  <style>
+    .markdown-body {
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 4em;
+    }
+    .raw {
+        max-height: 8em;
+        overflow: auto;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #eeeeff;
+        border-radius: 1em;
+        padding: 0.5em;
+    }
+    @media (max-width: 767px) {
+        .markdown-body {
+            padding: 2em;
+        }
+    }
+  </style>
+</head>
+
+<body class="markdown-body">
+  <header id="info"></header>
+
+  <label for="campaigns">Filenames relative to this HTML file (comma-separated): </label>
+  <select name="campaigns" onchange="chooseFiles(this, 'output-formatted','output-raw')">
+    <option value="data/hp,2">HeatPhoenix - 3D models and tutorials</option><!--1153441-->
+    <option value="data/pet,2">Project P.E.T. - mobile app</option><!--693136-->
+    <option value="data/bbj,2">BlueBandanaJake - animations</option><!--219559-->
+    <option value="data/om,1">LiteralLapin (OmegaMerak) - music</option><!--921829-->
+    <option value="data/jma,10">Minion's Art (Joyce) - Unity shader tutorials</option><!--685571-->
+    <option value="data/pm,11">Pedro Medeiros (saint11) - pixel art tutorials</option><!--379069-->
+  </select>
+
+  <div>
+      <h2>Raw Markdown Output</h2>
+      <div id="output-raw" class="raw">(no data)</div>
+  </div>
+  <div>
+      <h2>Formatted Markdown</h2>
+      <div id="output-formatted">(no data)</div>
+  </div>
+  <div>
+    <h2>Patreon Campaigns</h2>
+    <p>Check out the actual campaigns used for this demo and support these creators!</p>
+    <div id="links"></div>
+</div>
+  
+  <script>
+    let info = `# Patreon Post Index Generator`;
+    info += `\nThis is an example of formatting post data requested from Patreon, using the ID of a few different Patreon campaigns which you can select from the drop-down menu.`;
+    info += `\n\nIf you want to use this for another campaign, see [index.html](index.html)`;
+    info += `\n\n**Please Note:**This dataset only includes attachments up to the $1 tier. If you want to see what is available to you, create your own dataset with the instructions on [index.html](index.html)`;
+    info += `\n\n---`
+    document.getElementById('info').innerHTML = md.render(info);
+    let links = `\n
+    \n- [HeatPhoenix - 3D models and tutorials](https://www.patreon.com/heatphoenix)
+    \n- [Project P.E.T. - mobile app](https://www.patreon.com/petproject)
+    \n- [BlueBandanaJake - animations](https://www.patreon.com/BlueBandanaJake)
+    \n- [LiteralLapin (OmegaMerak) - music](https://www.patreon.com/LiteralLapin)
+    \n- [Minion's Art (Joyce) - Unity shader tutorials](https://www.patreon.com/minionsart)
+    \n- [Pedro Medeiros (saint11) - pixel art tutorials](https://www.patreon.com/saint11)
+    `;
+    document.getElementById('links').innerHTML = md.render(links);
+  </script>
+</body>
+</html>

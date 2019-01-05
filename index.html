@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>Patreon Indexer | FlyingKatsu</title>
+  <meta name="description" content="Simple indexing of a patreon campaign's posts">
+  <meta name="author" content="FlyingKatsu">
   <!-- credit: Remarkable https://github.com/jonschlinkert/remarkable -->
   <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
   <!-- Main Script -->
@@ -39,9 +39,10 @@
 <body class="markdown-body">
   <header id="info"></header>
 
-  <label for="filenames">List of filenames relative to this HTML file: </label>
+  <label for="filenames">Filenames relative to this HTML file (comma-separated): </label>
   <input id="filenames" name="filenames" type="text" value="data/1.json, data/2.json">
   <button onclick="readFiles('filenames','output-formatted','output-raw')">Get posts!</button>
+  <p>Alternatively, see <a href="demo.html">demo.html</a> to query from five other pre-collected data sets.</p>
 
   <div>
       <h2>Raw Markdown Output</h2>
