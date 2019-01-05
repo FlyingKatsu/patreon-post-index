@@ -99,20 +99,37 @@ const getDataAsync = async (filename,output) => {
     return Promise.resolve(output);
 };
 
-const readFiles = (fileId, outputIdFormat, outputIdRaw) => {
+const doFiles = (files, formatID, rawID) => {
     const input = {
         data: [],
         included: [],
         total: -1
     };
-    const files = document.getElementById(fileId).value.split(',');
     // credit: https://stackoverflow.com/a/24586168 Use reduce for iterative promise, smart!
     return files.reduce( (p, file) => {
         return p.then((output) => getDataAsync(file.trim(),output));
      }, Promise.resolve(input))
         .then( (data) => {
-            document.getElementById(outputIdFormat).innerHTML = md.render(processData(data));
-            document.getElementById(outputIdRaw).innerHTML = processData(data);
+            document.getElementById(formatID).innerHTML = md.render(processData(data));
+            document.getElementById(rawID).innerHTML = processData(data);
         } )
         .catch(console.error);
+};
+
+const readFiles = (fileId, outputIdFormat, outputIdRaw) => {
+    const files = document.getElementById(fileId).value.split(',');
+    doFiles(files,outputIdFormat,outputIdRaw);
+};
+
+const chooseFiles = (element, formatID, rawID) => {
+    console.log(element.value);
+    const values = element.value.split(',');
+    const dir = values[0];
+    const count = values[1];
+    const files = [];
+    for (let i=1; i<count; i++) {
+        files.push(`${dir}/${i}.json`);
+        console.log(`${dir}/${i}.json`);
+    }
+    doFiles(files, formatID, rawID);
 };
