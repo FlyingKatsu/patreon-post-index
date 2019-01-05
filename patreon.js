@@ -130,7 +130,8 @@ const readFiles = (fileId, outputIdFormat, outputIdRaw) => {
 };
 
 const chooseFiles = (element, formatID, rawID) => {
-    console.log(element.value);
+    if (element.value == '') return;
+    console.log(`## Starting to process '${element.value}'`);
     const values = element.value.split(',');
     const dir = values[0];
     const count = values[1];

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Patreon Indexer | FlyingKatsu</title>
+  <title>Patreon Indexer Demo Campaigns | FlyingKatsu</title>
   <meta name="description" content="Simple indexing of a patreon campaign's posts">
   <meta name="author" content="FlyingKatsu">
   <!-- credit: Remarkable https://github.com/jonschlinkert/remarkable -->
@@ -39,8 +39,8 @@
 <body class="markdown-body">
   <header id="info"></header>
 
-  <label for="campaigns">Filenames relative to this HTML file (comma-separated): </label>
-  <select name="campaigns" onchange="chooseFiles(this, 'output-formatted','output-raw')">
+  <label for="campaigns">Select a campaign: </label>
+  <select id="campaigns" name="campaigns" onchange="chooseFiles(this, 'output-formatted','output-raw')">
     <option value="data/hp,2">HeatPhoenix - 3D models and tutorials</option><!--1153441-->
     <option value="data/pet,2">Project P.E.T. - mobile app</option><!--693136-->
     <option value="data/bbj,2">BlueBandanaJake - animations</option><!--219559-->
@@ -50,13 +50,13 @@
   </select>
 
   <div>
-      <h2>Raw Markdown Output</h2>
+      <h2>Raw Output</h2>
       <div id="output-raw" class="raw">(no data)</div>
   </div>
   <div>
-      <h2>Formatted Markdown</h2>
       <div id="output-formatted">(no data)</div>
   </div>
+  <hr/>
   <div>
     <h2>Patreon Campaigns</h2>
     <p>Check out the actual campaigns used for this demo and support these creators!</p>
@@ -64,7 +64,7 @@
 </div>
   
   <script>
-    let info = `# Patreon Post Index Generator`;
+    let info = `# Patreon Post Index Demo Campaigns`;
     info += `\nThis is an example of formatting post data requested from Patreon, using the ID of a few different Patreon campaigns which you can select from the drop-down menu.`;
     info += `\n\nIf you want to use this for another campaign, see [index.html](index.html)`;
     info += `\n\n**Please Note:**This dataset only includes attachments up to the $1 tier. If you want to see what is available to you, create your own dataset with the instructions on [index.html](index.html)`;
@@ -79,6 +79,12 @@
     \n- [Pedro Medeiros (saint11) - pixel art tutorials](https://www.patreon.com/saint11)
     `;
     document.getElementById('links').innerHTML = md.render(links);
+
+    // Default display
+    const cam = document.getElementById('campaigns');
+    // Select randomly
+    cam.value = cam.options[Math.floor(Math.random() * cam.options.length)].value;
+    chooseFiles(cam,'output-formatted','output-raw');
   </script>
 </body>
 </html>
