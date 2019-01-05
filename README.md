@@ -1,6 +1,8 @@
 # Patreon Post Index Generator
 
-The [demo](http://flyingkatsu.com/patreon-post-index/index.html) is an example of formatting post data requested from Patreon, using the ID of [HeatPhoenix](https://www.patreon.com/join/heatphoenix)'s Patreon campaign.
+The [demo](http://flyingkatsu.com/patreon-post-index/demo.html) is an example of formatting post data requested from Patreon, using the ID of several different Patreon campaigns.
+
+To test specific local dataset files, use the [index page](http://flyingkatsu.com/patreon-post-index/index.html)
 
 If you want to use this for another campaign,
 1. download the files or clone this repo,
@@ -19,3 +21,11 @@ This demo uses files from the following projects:
 - [github-markdown-css](https://sindresorhus.com/github-markdown-css/)
 
 This demo uses the API url behind Patreon's `Load More Posts` button, which should not be considered an official [Patreon Developer API](https://docs.patreon.com/#introduction) endpoint until it gets added to their docs.
+
+Campaigns used in this demo:
+- [HeatPhoenix - 3D models and tutorials](https://www.patreon.com/heatphoenix)
+- [Project P.E.T. - mobile app](https://www.patreon.com/petproject)
+- [BlueBandanaJake - animations](https://www.patreon.com/BlueBandanaJake)
+- [LiteralLapin (OmegaMerak) - music](https://www.patreon.com/LiteralLapin)
+- [Minion's Art (Joyce) - Unity shader tutorials](https://www.patreon.com/minionsart)
+- [Pedro Medeiros (saint11) - pixel art tutorials](https://www.patreon.com/saint11)
